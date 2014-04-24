@@ -1,0 +1,101 @@
+.movie-ratings {
+  background-color: black;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+#create-movie {
+  .create-button {
+    cursor: pointer;
+    color: #0b62a4;
+  }
+  .create-button:hover {
+    opacity: .8;
+  }
+}
+
+
+.rated-movie:hover {
+  background-color: #cccccc;
+}
+.rated-movie {
+  color: #0b62a4;
+  border-bottom: 1px dotted #333333;
+  padding: 5px;
+  .movie-name {
+    width: 20%;
+    display:inline-block;
+    text-align: left;
+  }
+  .rating {
+    width: 20%;
+    display:inline-block;
+  }
+  .edit {
+    width: 20%;
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+    display:inline-block;
+  }
+  .edit:hover {
+    opacity: .5;
+  }
+  .delete {
+    width: 20%;
+    color: #990018;
+    font-weight: bold;
+    cursor: pointer;
+    display:inline-block;
+  }
+  .delete:hover {
+    opacity: .5;
+  }
+}
+
+
+.morris-hover {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.morris-hover-row-label {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#newchart {
+  svg {
+    rect:hover {
+      opacity: .7;
+    }
+  }
+}
+
+
+
+
+
+body {
+  font-family: "Arial", Helvetica, sans-serif;
+  background-color: #dddddd;
+
+  #container {
+    text-align: center;
+    width: 960px;
+    margin: auto;
+
+    .data-click {
+      color: #0b62a4;
+      margin-top: 10px;
+      font-style: italic;
+      cursor: pointer;
+    }
+    .data-click:hover {
+      opacity: .5;
+    }
+  }
+  h4 {
+    color: #333333;
+  }
+}
